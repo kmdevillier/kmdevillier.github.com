@@ -51,17 +51,41 @@ table {
 }
 
 
-h1 {font-size:30px;
-	font-weight:bold}
-	
-h2 {font-size:14px;
-	color:gray}
 
-body {font-family:arial;
-	font-size:16px;
-	margin:0 auto;
-	width:960px;
-	}
+
+h1 {font-size:20px;
+    font-family:arial;
+    font-weight:bold;
+    width:150px;
+    line-height:15pt;
+     }
+    
+img {padding-bottom:10px;
+     padding-right:px;
+     }
+     
+h2 {font-size:11px;
+    font-family:arial;
+    font-weight:bold;
+    color:gray;
+    margin-top:6px;
+    margin-bottom:8px;
+    }
+
+
+
+article  {font-family:arial;
+         font-size:11px;
+         line-height:9pt;
+         float:left;
+         width:300px;    
+    }
+
+
+          
+
+
+
 
 
 
