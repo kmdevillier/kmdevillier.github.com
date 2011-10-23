@@ -50,3 +50,64 @@ table {
 	border-spacing: 0;
 }
 
+#site-wrapper {position:relative;
+}
+
+#top-nav {position:absolute;
+          top:-25px;
+          right:200px;
+          font-family:arial;
+          font-size:12px;
+}
+
+#main-menu {position:relative;
+          left:150px;
+          padding-right:15px;
+          padding-bottom:15px;
+}
+
+#main-menu li {position:relative;
+               font-size:14px;
+               font-family:arial;
+               font-weight:bold;
+               text-transform:uppercase;
+               float:left;
+               color:brown;
+               
+}
+              
+#content {position:relative;}
+
+#page {position:relative;
+       font-family:arial;
+       font-size:9px;
+       width:400px;
+}
+
+
+h1 {position:relative;
+    left:150px;
+    color:brown;
+    font-family:arial;
+    font-size:24px;
+    margin-top:50px;
+    
+}
+
+h2 {position:relative;
+    font-family:arial;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    left:150px;
+    padding-bottom:10px;
+    padding-top:10px;
+    color:brown;
+}
+
+p {position:relative;
+   left:150px;
+}
+
+#side-bar {postion:absolute;}
+          
