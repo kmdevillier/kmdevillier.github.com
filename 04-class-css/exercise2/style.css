@@ -111,5 +111,11 @@ p {position:relative;
    left:150px;
 }
 
-#side-bar {postion:absolute;}
+.sidebar {postion:absolute;
+
+}
+
+#sidebar h1 {position:relative;
+
+}
           
