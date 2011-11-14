@@ -74,7 +74,31 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
-h1 {font-weight:bold;}
 
 
+#main-content {margin:0 auto;
+         width:960px;
+         position:relative;
+         margin:50px;
+}
 
+#dogvscat-logo {position:absolute;
+                margin-left:150px;}
+
+
+#main-nav {position:absolute;
+		   float:left;}
+
+li {float:left;
+
+}
+
+a  {
+
+display:block;
+width:60px;
+
+}
+
+img {float:left;
+}
