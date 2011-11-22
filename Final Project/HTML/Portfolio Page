@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body>
+<div id='site-wrapper'>
+<header id='site-header'>
+  <h1><img src="images/logo.jpeg" alt="logo"</h1>
+  <h2>"No work without an aggressive character can be a masterpiece." - F.T. Marinetti, 
+  The Futurist Manifesto</h2>
+  <nav id='top-nav'>
+    <a href='#'>Contact</a>
+  </nav>
+</header>
+</div> <!-- end #site-wrapper -->
+
+<div id='menu-wrapper'>
+<nav id='main-menu'>
+  <ul>
+    <li>
+    	<a href="#">Home</a></li>
+    <li>
+    	<a href="#">About Me</a></li>
+    <li>
+    	<a href="#">Portfolio</a></li>
+    <li>
+    	<a href="#">Resume</a></li>
+    <li>
+    	<a href="#">Contact</a></li>    	
+
+  </ul>
+</nav>
+</div> <!-- end #menu-wrapper -->
+
+<div id='content-wrapper'>
+<img src="images/background-image.jpeg" alt="background image"/>
+  <div id='content' class='clearfix'>
+    <article id='Portfolio Page'>
+        <h1>Thanks for stopping by,</h1>
+        <h2>Here you will see a variety of both digital and 
+        fine arts work. Enjoy!</h2>
+
+  <ul>
+    <li>
+    	<a href='#'><img src='images/shoe.jpeg'/></a></li>
+    <li>
+    	<a href='#'><img src='images/dirt-road.jpeg'/></a></li>
+    <li>
+    	<a href='#'><img src='images/architecture.jpeg'/></a></li>
+    <li>
+    	<a href='#'><img src='images/portrait-mike.jpeg'/></a></li>
+    <li>
+    	<a href='#'><img src='images/apple-logo.jpeg'/></a></li>    	
+    <li>
+    	<a href='#'><img src='images/textile-1.jpeg'/></a></li>
+    <li>
+    	<a href='#'><img src='images/textile-2.jpeg'/></a></li>
+    <li>
+    	<a href='#'><img src='images/textile-3.jpeg'/></a></li>
+    <li>
+    	<a href='#'><img src='images/textile-4.jpeg'/></a></li>
+    <li>
+    	<a href='#'><img src='images/gadget-1.jpeg'/></a></li> 
+    <li>
+    	<a href='#'><img src='images/gadget-2.jpeg'/></a></li>
+    <li>
+    	<a href='#'><img src='images/gadget-3.jpeg'/></a></li>
+    <li>
+    	<a href='#'><img src='images/gadget-4.jpeg'/></a></li>
+    <li>
+    	<a href='#'><img src='images/gadget-5.jpeg'/></a></li>
+    <li>
+    	<a href='#'><img src='images/booklet.jpeg'/></a></li> 
+  
+  
+  </ul>
+        
+         <div id='footer-wrapper'>
+  <footer id='site-footer'>
+    <section id='footer-follow'>
+      <h1>Follow Me</h1>
+
+      <ul>
+        <li><a href='#'><img src='images/facebook.png'/></a></li>
+        <li><a href='#'><img src='images/tumblr.png'/></a></li>
+        <li><a href='#'><img src='images/twitter.png'/></a></li>
+      </ul>
+    </section>
+  </footer>
+</div> <!-- end #footer-wrapper -->
+
+
+        

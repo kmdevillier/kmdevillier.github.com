@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body>
+<div id='site-wrapper'>
+<header id='site-header'>
+  <h1><img src="images/logo.jpeg" alt="logo"</h1>
+  <nav id='top-nav'>
+    <a href='#'>Contact</a>
+  </nav>
+</header>
+</div> <!-- end #site-wrapper -->
+
+<div id='menu-wrapper'>
+<nav id='main-menu'>
+  <ul>
+    <li>
+    	<a href="#">Home</a></li>
+    <li>
+    	<a href="#">About Me</a></li>
+    <li>
+    	<a href="#">Portfolio</a></li>
+    <li>
+    	<a href="#">Resume</a></li>
+    <li>
+    	<a href="#">Contact</a></li>    	
+
+  </ul>
+</nav>
+</div> <!-- end #menu-wrapper -->
+
+<div id='content-wrapper'>
+  <img src="images/background-image.jpeg" alt="background image"/>
+  <div id='content' class='clearfix'>
+  <article id='Portraits'>
+        <h1>"Black and White Portraits"</h1>
+        <h2>Black and White Photography I, SLR 35mm</h2>
+
+        <p>This picture was taken my freshman year at Massachusetts College of Art. The 
+        assignment was to take a series of 25 portrait pictures of the same subject, but with
+        alternating views.</p
+        
+<li>
+    	<a href='#'><img src='portrait-1.jpeg'/></a></li>
+<li>    	
+    	<a href='#'><img src='portrait-2.jpeg'/></a></li> 
+<li>
+    	<a href='#'><img src='portrait-3.jpeg'/></a></li>
+<li>    	
+    	<a href='#'><img src='portrait-4.jpeg'/></a></li> 
+  </ul>
+
+        
+         <div id='footer-wrapper'>
+  <footer id='site-footer'>
+    <section id='footer-follow'>
+      <h1>Follow Me</h1>
+
+      <ul>
+        <li><a href='#'><img src='images/facebook.png'/></a></li>
+        <li><a href='#'><img src='images/tumblr.png'/></a></li>
+        <li><a href='#'><img src='images/twitter.png'/></a></li>
+      </ul>
+    </section>
+  </footer>
+</div> <!-- end #footer-wrapper -->
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
