@@ -1,5 +1,6 @@
 
 
+
 /* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -76,65 +77,60 @@ html[xmlns] .clearfix { display: block; }
 
 
 
-#header {position:relative;
+
+
+header  {position:relative;
          margin:0 auto;
-         width:960px;
+         width:960px;}
 
-}
+.logo {padding-left:225px;}
 
+#main-nav {position:absolute;
+		   margin-top:15px;
+           border:solid;
+           width:960px;}
 
-#dogvscat-logo {position:absolute;
-            
-}
-                
-
-#main-nav {position:absolute
-		   margin:250px;
-         
-}
-
-
-#main-content {margin:0 auto;
-               width:960px;
-               margin-top:25px
-               float:left;
-}
-
-
-li {display:inline; 
-	font-size:26px;
-    position:relative;
+li {display:inline;
+    font-size:26px;
+    margin:45px;
 	font-weight:bold;
-	margin:20px;
-}
+	text-transform:uppercase;}
 
 a {text-decoration:none;
-   color:black;
-}
+   color:black;}
 
 
+#main-content {padding-top:50px;
+               margin:0 auto;
+               width:800px;}
+               
+               
 h1      {font-size:28px;
 		 font-weight:bold;
 		 margin-top:10px;
-		 margin-bottom:10px;
-}
+		 margin-bottom:10px;}
 
 		 
-.dog {float:left;
-	  width:400px;
-	  left:350px;
-}
+.dog {
+      float:left;
+      width:400px;}
 
-p  {float:left;
-   width:350px;
-   line-height:20px;
-}
 
-.cat {position:absolute;
-      width:400px;
-      right:350px;
-      
-      }
+.cat {float:right;
+      width:400px;}
+
+img {margin-top:15px;}
+            
+
+p  {width:350px;
+    line-height:20px;}
+
+
+
+.footer {position:relative;
+         float:left;
+         margin-top:50px;}
+
+
+
 		 
-.aside {position:relative;
-        }

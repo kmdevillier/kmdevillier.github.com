@@ -8,7 +8,7 @@
 <body>
 <div id='site-wrapper'>
 <header id='site-header'>
-  <h1><img src="images/logo.jpeg" alt="logo"</h1>
+  <h1><img src="images/logo.jpeg" alt="logo"></h1>
   <nav id='top-nav'>
     <a href='#'>Contact</a>
   </nav>
@@ -48,13 +48,13 @@
       <h1>Featured Work:</h1>
       <ul>
         <li>
-        	<a href='#'>Film Photography<img src='images/ethics-project.jpeg'/></a></li>
+        	<a href='#'>Film Photography<img src='images/ethics-project.jpeg' alt="film photography"></a></li>
         <li>
-        	<a href='#'>Digital Photography<img src='images/sign.jpeg'/></a></li>
+        	<a href='#'>Digital Photography<img src='images/sign.jpeg' alt="digital photography"></a></li>
         <li>
-            <a href='#'>Graphic Design<img src='images/apple-logo.jpeg'/></a></li>
+            <a href='#'>Graphic Design<img src='images/apple-logo.jpeg' alt="graphic design"></a></li>
         <li>
-            <a href='#'>Fine Art<img src='images/mixed-media.jpeg'/></a></li>
+            <a href='#'>Fine Art<img src='images/mixed-media.jpeg' alt="fine art"></a></li>
       </ul>
 
       </aside> <!-- end #sidebar -->
@@ -67,9 +67,9 @@
       <h1>Follow Me</h1>
 
       <ul>
-        <li><a href='#'><img src='images/facebook.png'/></a></li>
-        <li><a href='#'><img src='images/tumblr.png'/></a></li>
-        <li><a href='#'><img src='images/twitter.png'/></a></li>
+        <li><a href='#'><img src='images/facebook.png' alt="facebook"></a></li>
+        <li><a href='#'><img src='images/tumblr.png' alt="tumblr"></a></li>
+        <li><a href='#'><img src='images/twitter.png' alt="twitter"></a></li>
       </ul>
     </section>
   </footer>
