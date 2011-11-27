@@ -74,7 +74,53 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
-h1 {font-weight:bold;}
 
 
+#main-content {margin:0 auto;
+         width:960px;
+         text-align:left;
+         margin-top:25px
+         position:absolute;
+}
 
+#dogvscat-logo {position:relative;
+                left:190px;
+                margin:25px;}
+                
+#main-nav {position:relative;
+          left:90px;
+		  margin-bottom:25px;
+		  border:solid;
+			}
+
+li {display:inline; 
+	font-size:26px;
+    position:relative;
+	font-weight:bold;
+	margin:20px
+;
+}
+
+
+h1      {font-size:28px;
+		 font-weight:bold;
+		 margin-top:10px;
+		 margin-bottom:10px;}
+		 
+.dog {
+	  position:absolute;
+	  width:400px;
+	  left:350px;
+}
+
+p {width:415px;
+   line-height:20px;}
+
+.cat {position:absolute;
+      width:400px;
+      right:350px;
+      
+      }
+		 
+.aside {position:relative;
+        }
