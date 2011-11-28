@@ -58,26 +58,61 @@ table {
        position:relative;
        margin-top:25px;}
 
-#site-wrapper {width:1200px;
+#site-wrapper {position:absolute;
+               width:1400px;
                height:100px;
                background-color:black;}
                
-#site-header {position:absolute;
-              background-color:pink;}
+#site-header {position:relative;
+              background-color: black;
+              }
                
-#top-nav {font-size:24pt;
-          text-decoration:none;}
+#top-nav a  {position:absolute;
+             right:50px;
+             top:40px;
+             font-size:16pt;
+             color:white;
+             text-decoration:none;
+             font-family:georgia;}
 
-#menu-wrapper {background-color:pink;}
 
 #main-menu {position:absolute;
-            display:inline;
-            width:900px;}
-          
-#homepage {position:absolute;}
+            width:1200px;
+            list-style-type:none;
+            margin:0;
+            padding:0px;
+            top:50px;
+            left:350px;
+        }
 
-h1 {font-family:arial;
-	font-size:24pt;}
+#main-menu li {display:inline;
+               }
+
+#main-menu a {color:white;
+			  font-size:20pt;
+			  text-decoration:none;
+			  margin:0;
+              padding:25px;
+              }
+
+
+#homepage h1 {position:absolute;
+    font-family:georgia;
+	font-size:18pt;
+	top:200px;
+	right:150px;}
+
+#homepage h2 {position:absolute;
+    top:150px;
+    font-family:georgia;
+    font-size:18pt;
+     right:150px;}
+     
+#sidebar h1 {position:absolute;
+             top:350px;}
+	
+	
+
 
 
 

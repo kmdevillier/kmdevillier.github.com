@@ -9,7 +9,8 @@
 <header id='site-header'>
   <h1><img src="images/logo.jpeg" alt="logo"></h1>
  <nav id='top-nav'>
-    <a href='#'>Contact</a>
+    <a href='#'>kmdevillier@gmail.com</a>
+    
   </nav>
 
 </div> <!-- end #site-wrapper -->
@@ -38,7 +39,7 @@
 <div id='content-wrapper'>
   <img src="images/background-image.jpeg" alt="background image"/>
   <div id='content' class='clearfix'>
-    <article id='Homepage'>
+    <article id='homepage'>
         <h1>Welcome to my Website!</h1>
         <h2>My name is Kat and I am a graphic design major.</h2>
 

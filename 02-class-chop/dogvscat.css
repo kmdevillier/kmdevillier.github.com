@@ -78,16 +78,20 @@ html[xmlns] .clearfix { display: block; }
 
 
 
+body {margin:0 auto;
+         width:960px;}
 
 header  {position:relative;
-         margin:0 auto;
-         width:960px;}
+         }
 
 .logo {padding-left:225px;}
 
 #main-nav {position:absolute;
 		   margin-top:15px;
            border:solid;
+           border-left:none;
+           border-right:none;
+           border-length:900px;
            width:960px;}
 
 li {display:inline;
@@ -127,10 +131,24 @@ p  {width:350px;
 
 
 
-.footer {position:relative;
-         float:left;
-         margin-top:50px;}
+footer {position:relative;
+         margin-top:50px;
+         width:960px;
+         border-top:solid;}
 
 
+.images {margin-top:15px;
+        float:left
+        display:inline-block;
+        width:500px;
+        font-size:11pt;
+                }
 
-		 
+.word5 {color:red;}
+
+.copyright {margin-top:15px;
+            position:absolute;
+            right:0px;
+            bottom:0px;
+            font-size:11pt;
+				   }
