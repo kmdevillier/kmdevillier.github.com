@@ -3,17 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-</head>
+  <link rel="stylesheet" href="homepage.css" type="text/css" media="screen" />
 <body>
 <div id='site-wrapper'>
 <header id='site-header'>
   <h1><img src="images/logo.jpeg" alt="logo"></h1>
-  <nav id='top-nav'>
+ <nav id='top-nav'>
     <a href='#'>Contact</a>
   </nav>
-</header>
+
 </div> <!-- end #site-wrapper -->
+
 
 <div id='menu-wrapper'>
 <nav id='main-menu'>
@@ -32,6 +32,8 @@
   </ul>
 </nav>
 </div> <!-- end #menu-wrapper -->
+</header>
+
 
 <div id='content-wrapper'>
   <img src="images/background-image.jpeg" alt="background image"/>
