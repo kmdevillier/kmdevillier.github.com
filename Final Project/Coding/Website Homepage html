@@ -7,7 +7,7 @@
 <body>
 <div id='site-wrapper'>
 <header id='site-header'>
-  <h1><img src="images/logo.jpeg" alt="logo"></h1>
+  <h1><img src="images/birds.jpg" alt="birds" width="685" height="650"></h1>
  <nav id='top-nav'>
     <a href='#'>kmdevillier@gmail.com</a>
     
@@ -36,14 +36,16 @@
 </header>
 
 
+
+
 <div id='content-wrapper'>
-  <img src="images/background-image.jpeg" alt="background image"/>
   <div id='content' class='clearfix'>
     <article id='homepage'>
         <h1>Welcome to my Website!</h1>
         <h2>My name is Kat and I am a graphic design major.</h2>
 
-        <p>Please feel free to browse my work and don't hesitate to contact me!</p>
+        <p>Please feel free to browse my work, enjoy!</p>
+        
 
 
     </article>
@@ -51,13 +53,13 @@
       <h1>Featured Work:</h1>
       <ul>
         <li>
-        	<a href='#'>Film Photography<img src='images/ethics-project.jpeg' alt="film photography"></a></li>
+        	<a href='#'><img src='images/cider.jpg' alt="cider" width="175" height="125"></a></li>
         <li>
-        	<a href='#'>Digital Photography<img src='images/sign.jpeg' alt="digital photography"></a></li>
+        	<a href='#'><img src='images/textile.jpg' alt="textile" width="175" height="125"></a></li>
         <li>
-            <a href='#'>Graphic Design<img src='images/apple-logo.jpeg' alt="graphic design"></a></li>
+            <a href='#'><img src='images/homeless.jpg' alt="homeless" width="175" height="125"></a></li>
         <li>
-            <a href='#'>Fine Art<img src='images/mixed-media.jpeg' alt="fine art"></a></li>
+            <a href='#'><img src='images/stairs.jpg' alt="stairs" width="175" height="125"></a></li>
       </ul>
 
       </aside> <!-- end #sidebar -->

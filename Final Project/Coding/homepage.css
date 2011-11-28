@@ -53,28 +53,26 @@ table {
 
 
 
+#head {position:relative;}
 
-#head {
-       position:relative;
-       margin-top:25px;}
-
-#site-wrapper {position:absolute;
-               width:1400px;
-               height:100px;
+#site-wrapper {width:2400px;
+               height:75px;
                background-color:black;}
                
-#site-header {position:relative;
-              background-color: black;
-              }
-               
+#site-header h1 {position:absolute;
+                top:75px;
+                margin:0px;
+                padding:0px;
+                border-bottom:solid;
+                border:900px;}
+
 #top-nav a  {position:absolute;
-             right:50px;
-             top:40px;
-             font-size:16pt;
-             color:white;
+             right:20px;
+             top:20px;
+             font-size:12pt;
+             color: rgb(199,21,130);
              text-decoration:none;
              font-family:georgia;}
-
 
 #main-menu {position:absolute;
             width:1200px;
@@ -82,34 +80,68 @@ table {
             margin:0;
             padding:0px;
             top:50px;
-            left:350px;
-        }
+            left:15px;
+            letter-spacing:1pt;}
 
-#main-menu li {display:inline;
-               }
+#main-menu li {display:inline;}
 
-#main-menu a {color:white;
-			  font-size:20pt;
+#main-menu a {color:rgb(199,21,130);
+			  font-size:22pt;
 			  text-decoration:none;
 			  margin:0;
-              padding:25px;
-              }
-
+              padding:15px;
+              font-family:gill sans;
+              text-transform:uppercase;}
 
 #homepage h1 {position:absolute;
     font-family:georgia;
-	font-size:18pt;
-	top:200px;
-	right:150px;}
+	font-size:20pt;
+	font-weight:bold;
+	top:150px;
+	right:105px;}
 
 #homepage h2 {position:absolute;
-    top:150px;
+    top:210px;
     font-family:georgia;
-    font-size:18pt;
-     right:150px;}
-     
+    font-size:16pt;
+    right:105px;}
+             
+#homepage p {position:absolute;
+			 right:105px;
+			 top:240px;
+			 font-family:georgia;
+			 font-size:16pt;}
+			 
 #sidebar h1 {position:absolute;
-             top:350px;}
+             top:450px;
+             font-family:georgia;
+             font-size:16pt;
+             right:120px;
+             color:rgb(199,21,130)}
+             
+#sidebar ul li {display:inline;
+                position:relative;
+                top:450px;
+                left:315px;
+                padding:15px;}
+        
+#sidebar li a {top:450px;
+               padding:5px;}
+
+#sidebar li h1 {top:30px;
+                left:32px;
+                width:150px;
+                font-family:gill sans;
+                text-transform:uppercase;
+                font-size:12pt;}
+                
+#footer-wrapper {position:absolute;
+                 left:0px;
+                 top:745px;
+                 background-color:black;
+                 height:50px;
+                 width:1500px;}
+
 	
 	
 
