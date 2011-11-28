@@ -69,7 +69,7 @@ table {
 #top-nav a  {position:absolute;
              right:20px;
              top:20px;
-             font-size:12pt;
+             font-size:15pt;
              color: rgb(199,21,130);
              text-decoration:none;
              font-family:georgia;}
@@ -80,22 +80,22 @@ table {
             margin:0;
             padding:0px;
             top:50px;
-            left:15px;
+            left:25px;
             letter-spacing:1pt;}
 
 #main-menu li {display:inline;}
 
 #main-menu a {color:rgb(199,21,130);
-			  font-size:22pt;
+			  font-size:20pt;
 			  text-decoration:none;
 			  margin:0;
-              padding:15px;
-              font-family:gill sans;
-              text-transform:uppercase;}
+              padding:10px;
+              font-family:century gothic;
+              text-transform:lowercase;}
 
 #homepage h1 {position:absolute;
     font-family:georgia;
-	font-size:20pt;
+	font-size:18pt;
 	font-weight:bold;
 	top:150px;
 	right:105px;}
@@ -103,27 +103,31 @@ table {
 #homepage h2 {position:absolute;
     top:210px;
     font-family:georgia;
-    font-size:16pt;
+    font-size:15pt;
     right:105px;}
              
 #homepage p {position:absolute;
 			 right:105px;
 			 top:240px;
 			 font-family:georgia;
-			 font-size:16pt;}
+			 font-size:14pt;}
 			 
 #sidebar h1 {position:absolute;
-             top:450px;
-             font-family:georgia;
+             top:390px;
+             font-family:century gothic;
              font-size:16pt;
-             right:120px;
-             color:rgb(199,21,130)}
+             right:115px;
+             color:rgb(199,21,130);
+             text-transform:lowercase;
+             letter-spacing:1pt;}
+             
              
 #sidebar ul li {display:inline;
                 position:relative;
-                top:450px;
+                top:375px;
                 left:315px;
-                padding:15px;}
+                padding:15px;
+                }
         
 #sidebar li a {top:450px;
                padding:5px;}
@@ -135,12 +139,6 @@ table {
                 text-transform:uppercase;
                 font-size:12pt;}
                 
-#footer-wrapper {position:absolute;
-                 left:0px;
-                 top:745px;
-                 background-color:black;
-                 height:50px;
-                 width:1500px;}
 
 	
 	
