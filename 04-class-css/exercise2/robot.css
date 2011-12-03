@@ -52,70 +52,144 @@ table {
 
 
 
-#site-wrapper {position:relative;
-}
 
-#top-nav {position:absolute;
-          top:-25px;
-          right:200px;
+#site-wrapper {background-color:rgb(250,250,210);
+			   width:100%;
+			   height:100px;}
+			   
+#site-header img {position:absolute;
+				  top:0px;
+				  width:250px;
+				  height:100px;
+                  left:150px;}
+
+#site-header {position:relative;}
+
+#top-nav {position:relative;
           font-family:arial;
           font-size:12px;
-}
+          left:650px;
+          top:-40px;}
+          
+#top-nav li {display:inline;}
 
-#main-menu {position:relative;
-          left:150px;
+#top-nav a {color:rgb(139,90,43);
+            text-decoration:none;
+            font-size:12px;}
+	
+	
+#menu-wrapper {background-color:rgb(139,90,43);
+			   width:100%;
+			   height:25px;}
+
+#main-menu {position:absolute;
+		  top:105px;
+          left:135px;
           padding-right:15px;
-          padding-bottom:15px;
-}
+          padding-bottom:15px;}
 
-#main-menu li {position:relative;
+#main-menu li {
                font-size:14px;
                font-family:arial;
-               font-weight:bold;
                text-transform:uppercase;
                float:left;
-               color:brown;
+               color:brown;}
                
-}
+#main-menu a {color:white;
+			  text-decoration:none;
+			  padding:15px;}
               
-#content {position:relative;}
-
-#page {position:relative;
-       font-family:arial;
-       font-size:9px;
-       width:400px;
+#content {float:left;}
+		  
+#page h1 {margin-left:250px;
+          margin-top:50px;
+		  color:rgb(139,90,43);
+          font-size:40px;
+          font-family:lobster;
+          top:50px;
 }
 
+#page h2 {color:rgb(139,90,43);
+		  font-family:arial;
+		  font-weight:bold;
+          margin-left:250px;
+          margin-top:10px;
+          font-size:14px;
+          text-transform:uppercase;}
+          
+#page p { font-family:arial;
+          margin-left:250px;
+          padding-top:10px;
+          line-height:10pt;
+          font-size:10px;
+          width:350px}
+          
+#sidebar {position:absolute;
+          right:350px;
+          margin-top:50px;
+          width:200px;}
 
-h1 {position:relative;
-    left:150px;
-    color:brown;
-    font-family:arial;
-    font-size:24px;
-    margin-top:50px;
-    
-}
+#sidebar h1 {font-family:arial;
+		     font-weight:bold;
+		    text-transform:uppercase;
+		    color:rgb(139,90,43);
+		    font-size:14px;}
+		    
+#sidebar p {font-family:arial;
+            font-size:10px;
+            line-height:10pt;
+            margin-top:10px;
+            color:rgb(139,90,43);
+            font-weight:bold;}
+          
+#sidebar img {height:100px;
+            width:200px;
+            margin-top:10px;}
 
-h2 {position:relative;
-    font-family:arial;
-    font-size:14px;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    left:150px;
-    padding-bottom:10px;
-    padding-top:10px;
-    color:brown;
-}
+#footer-wrapper {position:absolute;
+                 bottom:0px;
+                 width:100%;
+                 background-color:rgb(139,90,43);
+                 height:130px;}
 
-p {position:relative;
-   left:150px;
-}
+#footer-contact {position:absolute;
+                top:25px;
+                left:250px;}
+			    
+#footer-contact h1 {top:25px;
+                   text-transform:uppercase;
+                   color:rgb(250,250,210);
+                   font-family:arial;
+                   font-size:14px;
+                   }
+                   
+#footer-contact p {top:25px;
+                   width:200px;
+                   color:white;
+                   font-size:10px;
+                   margin-top:10px;
+                   line-height:10pt;}
+                 
+                   
+#footer-follow {position:absolute;
+			    right:380px;
+			    top:25px;}
+			    
+#footer-follow h1 {text-transform:uppercase;
+                   color:rgb(250,250,210);
+                   font-family:arial;
+                   font-size:14px;
+                   margin-bottom:10px;
+                   margin-left:10px;}
 
-.sidebar {postion:absolute;
+#footer-follow li {display:inline;}
 
-}
 
-#sidebar h1 {position:relative;
 
-}
+
+
+
+
+
+
           
