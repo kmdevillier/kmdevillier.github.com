@@ -83,11 +83,11 @@ body {margin:0 auto;
 
 header  {position:relative;}
 
-.logo {padding-left:250px;
-       font-family:righteous;
-       font-size:100px;
+.logo h1 {padding-left:250px;
+       font-family:lemon;
+       font-size:60px;
        margin-bottom:25px;
-       margin-top:10px;
+       margin-top:20px;
        text-transform:uppercase;}
 
 #main-nav {position:absolute;
