@@ -48,29 +48,32 @@ q:before, q:after {
 table {border-collapse: collapse;
 	   border-spacing: 0;}
 
-body {position:absolute;}
+
+
+
+head {position:relative;}
 
 #site-header img {width:100%;
 				 height:100%:}
 
 #site-header h2 {font-family:lato;
-				 position:absolute;
 				 color:rgb(71,71,71);
+				 position:absolute;
 				 letter-spacing:2pt;
 				 font-size:75px;
 				 top:200px;
-				 left:440px;
+				 left:455px;
 				 font-size:75px;
 				 text-shadow: 2px 4px 3px #666;}
 				 
 #site-header h3 {font-family:lato;
-				 position:absolute;
 				 font-weight:bold;
+				 position:absolute;
 				 color:rgb(71,71,71);
 				 letter-spacing:2pt;
 				 font-size:75px;
 				 top:280px;
-				 left:440px;
+				 left:455px;
 				 text-shadow: 2px 4px 3px #666;
 				 padding-bottom:25px;
 				 border-bottom-style:solid;
@@ -78,11 +81,11 @@ body {position:absolute;}
 				 border-color:rgb(71,71,71);}
 				 
 #site-header h4 {color:rgb(71,71,71);
-				 position:absolute;
 				 line-height:20px;
+				 position:absolute;
 				 text-align:center;
 				 font-family:georgia;
-				 left:440px;
+				 left:455px;
 				 top:410px;
 				 width:525px;
 				 padding-bottom:15px;
@@ -91,7 +94,7 @@ body {position:absolute;}
 				 border-color:rgb(71,71,71);}
 				 
 #site-header h4 a {text-decoration:none;
-                   color:rgb(205,104,137);
+                   color:rgb(205,85,120);
                    font-size:20px;}
                    
 				 
@@ -112,11 +115,11 @@ body {position:absolute;}
   #main-menu li a {display:block; 
     padding:15px 20px;
     font-size:18px;
-    color:rgb(205,104,137);
+    color:rgb(205,85,120);
     letter-spacing:1pt;
     text-decoration:none;}
   
-  #main-menu li a:hover { background-color:rgb(238,224,229);}
+#main-menu li a:hover { background-color:rgb(238,224,229);}
                
-
+#slideshow img { border:1px solid black; padding:10px; border-radius:10px; } 
                     

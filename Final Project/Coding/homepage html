@@ -1,12 +1,24 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+    <script src='js/jquery.min.js'></script>
+    <script src='js/jquery.cycle.all.js'></script>    <script>
+      $(document).ready(function() {
+        $('#slideshow').cycle({
+          //next: "#slideshow",
+          //speed: 5000,
+          //timeout: 200,
+          //random: 1,
+          fx: 'fade' 
+          //fade
+        });
+      });     </script>
+    </head>
+
 	<title></title>
   <link rel="stylesheet" href="homepage.css" type="text/css" media="screen" />
   <link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
-
-<div id='menu-wrapper'>
+<body>
 <nav id='main-menu'>
   <ul>
     <li>
@@ -19,11 +31,10 @@
     	<a href="#">Resume</a></li>
     <li class='last'>
     	<a href="#">Contact</a></li>    
-</div> <!-- end #menu-wrapper -->
+
 
   </ul>
 </nav>
-<body>
 <header id='site-header'>
   <h1><img src='images/pink-paint.jpg' alt="background"></h1>
   <h2>kat m devillier</h2>
@@ -34,8 +45,17 @@
   <a href="#">digital photography,</a>
   <a href="#">painting,</a>
   <a href="#">drawing,</a> and
-  <a href="#">web design.</a> Enjoy!
-</h4>
+  <a href="#">web design.</a> Enjoy!</h4>
 </header>
+
+ <div id='slideshow'>
+      <img src='images/image1.jpg'/>
+      <img src='images/image2.jpg'/>
+      <img src='images/image3.jpg'/>
+      <img src='images/image4.jpg'/>
+    </div>
+
+
+
 </body>
 </html>
