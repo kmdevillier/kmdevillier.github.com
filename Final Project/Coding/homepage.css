@@ -43,12 +43,10 @@ blockquote, q {
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+	content: none;}
+	
+table {border-collapse: collapse;
+	   border-spacing: 0;}
 
 body {position:absolute;}
 
@@ -97,30 +95,27 @@ body {position:absolute;}
                    font-size:20px;}
                    
 				 
-#main-menu  {
-    position:absolute;
-    top:10px;
-    left:409px;
-    background-color:rgb(71,71,71);
-    border-radius:10px;
-    box-shadow:4px 4px 4px #666;
-    padding:0 10px;
-    margin:0 20px;
- }
+#main-menu  {position:absolute;
+    		 top:10px;
+    		 left:409px;
+    		 background-color:rgb(71,71,71);
+    		 border-radius:10px;
+    		 box-shadow:4px 4px 4px #666;
+    		 padding:0 10px;
+    		 margin:0 20px;}
  
-#main-menu li { 
-    float:left; 
-    border-right:1px solid #CCC;
-  }
-  #main-menu li.last { border:0px; }
+#main-menu li {float:left; 
+    		   border-right:1px solid #CCC;}
+    
+  #main-menu li.last {border:0px; }
   
-  #main-menu li a { display:block; 
+  #main-menu li a {display:block; 
     padding:15px 20px;
     font-size:18px;
     color:rgb(205,104,137);
     letter-spacing:1pt;
-    text-decoration:none;
-  }
+    text-decoration:none;}
+  
   #main-menu li a:hover { background-color:rgb(238,224,229);}
                
 
