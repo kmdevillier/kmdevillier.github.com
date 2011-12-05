@@ -56,8 +56,7 @@ table {
 
 
                
-#main-content {width:100%;
-}
+#main-content {width:100%;}
 
 
 .cat {float:left;    
@@ -73,9 +72,8 @@ table {
 
 
 img {max-width:100%;
-     padding-right:15%;
-     padding-bottom:5%;
-     height:auto;
+	 padding-bottom:5%;
+	 height:auto;
 }
 
 
