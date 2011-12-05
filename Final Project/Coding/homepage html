@@ -6,6 +6,23 @@
   <link rel="stylesheet" href="homepage.css" type="text/css" media="screen" />
   <link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
 
+<div id='menu-wrapper'>
+<nav id='main-menu'>
+  <ul>
+    <li>
+    	<a href="file:///Users/massartuser/Desktop/kmdevillier.github.com/Final%20Project/Coding/homepage%20html">Home</a></li>
+    <li>
+    	<a href="file:///Users/massartuser/Desktop/kmdevillier.github.com/Final%20Project/Coding/aboutme">About Me</a></li>
+    <li>
+    	<a href="file:///Users/massartuser/Desktop/kmdevillier.github.com/Final%20Project/Coding/portfolio">Portfolio</a></li>
+    <li>
+    	<a href="#">Resume</a></li>
+    <li class='last'>
+    	<a href="#">Contact</a></li>    
+</div> <!-- end #menu-wrapper -->
+
+  </ul>
+</nav>
 <body>
 <header id='site-header'>
   <h1><img src='images/pink-paint.jpg' alt="background"></h1>
@@ -19,26 +36,6 @@
   <a href="#">drawing,</a> and
   <a href="#">web design.</a> Enjoy!
 </h4>
-
-
-
-<div id='menu-wrapper'>
-<nav id='main-menu'>
-  <ul>
-    <li>
-    	<a href="#">Home</a></li>
-    <li>
-    	<a href="#">About Me</a></li>
-    <li>
-    	<a href="#">Portfolio</a></li>
-    <li>
-    	<a href="#">Resume</a></li>
-    <li class='last'>
-    	<a href="#">Contact</a></li>    	
-
-  </ul>
-</nav>
-</div> <!-- end #menu-wrapper -->
 </header>
 </body>
 </html>
