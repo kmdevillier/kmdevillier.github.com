@@ -63,14 +63,14 @@ table {
 }
 
 
-.cat {position:absolute;
+.cat {float:left;
         top:0px;
         right:50px;     
         width:400px;
 }
 
 
-.dog {position:absolute;
+.dog {float:left;
         top:0px;
         left:50px;     
         width:400px;     
