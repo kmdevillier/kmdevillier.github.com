@@ -133,17 +133,18 @@ table {
 			top:410px;
 			left:820px;}
 			
+				 
 fieldset {position:absolute;
 		  top:225px;
-		  right:200px;}
+		  left:1015px;}
 		  
 label {display:block;}
-input, textarea { display:block;}
+input, textarea {display:block;}
 
 
 
 #footer-follow h1 {position:absolute;
-				   left:1070px;
+				   left:1015px;
 				   top:420px;
 				   font-family:lato;
 				   font-size:20px;
@@ -154,14 +155,13 @@ input, textarea { display:block;}
 #footer-follow h2 {display:inline;
 				   position:absolute;
 				   top:465px;
-				   left:1066px;}
+				   left:1070px;}
 				   
 #footer-follow h3 {display:inline;
 				   position:absolute;
 				   top:465px;
-				   left:1125px;}
+				   left:1010px;}
 			     			     
-			     
 			     
 			     
 			     
