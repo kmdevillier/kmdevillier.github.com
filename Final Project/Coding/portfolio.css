@@ -119,7 +119,19 @@ table {
 			     
 #photos h9 {position:absolute;
 			top:410px;
-			left:480px;}		
+			left:480px;}
+			
+#photos h10 {position:absolute;
+			top:410px;
+			left:595px;}
+			
+#photos h11 {position:absolute;
+			top:410px;
+			left:708px;}
+			
+#photos h12 {position:absolute;
+			top:410px;
+			left:820px;}
 			
 fieldset {position:absolute;
 		  top:225px;
