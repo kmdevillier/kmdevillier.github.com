@@ -53,117 +53,53 @@ table {
 
 
 
-#head {position:relative;}
+body {background:url(images/pink-paint.jpg);}
 
-#site-header img {width:100%;
-				  height:100%;}
+#site-header {position:relative;}
+        	  
 				 
-#main-menu  {
-    position:absolute;
-    top:10px;
-    left:409px;
-    background-color:rgb(71,71,71);
-    border-radius:10px;
-    box-shadow:4px 4px 4px #666;
-    padding:0 10px;
-    margin:0 20px;
- }
+#main-menu  {position:absolute;
+             left:395px;
+		     width:540px;
+			 background-color:rgb(71,71,71);
+    		 border-radius:10px;
+    		 box-shadow:4px 4px 4px #666;
+    		 padding:0 10px;
+    		 margin:0 20px;
+    		 margin-top:25px;}
  
-#main-menu li { 
-    float:left; 
-    border-right:1px solid #CCC;
-  }
-  #main-menu li.last { border:0px; }
+#main-menu li {float:left; 
+    		   border-right:1px solid rgb(238,224,229);}
+    
+#main-menu li.last {border:0px; }
   
-  #main-menu li a { display:block; 
+#main-menu li a {display:block; 
     padding:15px 20px;
     font-size:18px;
-    color:rgb(205,104,137);
+    color:rgb(205,85,120);
     letter-spacing:1pt;
-    text-decoration:none;
-  }
-
-#main-menu li a:hover { background-color:rgb(238,224,229);}
-
+    text-decoration:none;}
+  
+#main-menu li a:hover {background-color:rgb(238,224,229);}
 
 
-#photos h1 {position:absolute;
-			top:150px;
-			left:480px;}
-
-#photos h2 {position:absolute;
-			top:150px;
-			left:594px;}
-			     
-#photos h3 {position:absolute;
-			top:150px;
-			left:708px;}
-
-#photos h4 {position:absolute;
-			top:280px;
-			left:480px;}
+#photos {position:absolute;
+		 background-color:rgb(238,224,229);
+		 box-shadow: 10px 10px 30px rgb(71,71,71);
+		 width:1075px;
+		 top:200px;
+		 left:150px;
+		 padding-top:10px;
+		 padding-left:7px;
+		 padding-bottom:10px;}
+		 
+#photos li {display:inline;
+			padding-right:3px;}
 			
-#photos h5 {position:absolute;
-			top:280px;
-			left:594px;}
-			
-#photos h6 {position:absolute;
-			top:280px;
-			left:708px;}
-			     	
-#photos h7 {position:absolute;
-			top:280px;
-			left:820px;}	
+#photos2 {padding-top:10px;}
 
-#photos h8 {position:absolute;
-			top:150px;
-			left:820px;}			     
-			     
-#photos h9 {position:absolute;
-			top:410px;
-			left:480px;}
-			
-#photos h10 {position:absolute;
-			top:410px;
-			left:595px;}
-			
-#photos h11 {position:absolute;
-			top:410px;
-			left:708px;}
-			
-#photos h12 {position:absolute;
-			top:410px;
-			left:820px;}
-			
-				 
-fieldset {position:absolute;
-		  top:225px;
-		  left:1015px;}
-		  
-label {display:block;}
-input, textarea {display:block;}
+#photos3 {padding-top:10px;}
 
-
-
-#footer-follow h1 {position:absolute;
-				   left:1015px;
-				   top:420px;
-				   font-family:lato;
-				   font-size:20px;
-				   color:rgb(71,71,71);
-				   text-shadow: 1px 0px 1px #666;
-				   letter-spacing:1pt;}
-				   
-#footer-follow h2 {display:inline;
-				   position:absolute;
-				   top:465px;
-				   left:1070px;}
-				   
-#footer-follow h3 {display:inline;
-				   position:absolute;
-				   top:465px;
-				   left:1010px;}
-			     			     
-			     
-			     
-			     
+#borderline3 {float:left;
+			  top:0px;}
+  

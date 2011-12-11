@@ -53,101 +53,104 @@ table {
 
 
 
-#head {position:relative;}
+body {background:url(images/pink-paint.jpg);}
 
-#site-header img {width:100%;
-				  height:100%;}
+#site-header {position:relative;
+        	  margin-top:25px;}
+        	  
 				 
-#main-menu  {
-    position:absolute;
-    top:10px;
-    left:409px;
-    background-color:rgb(71,71,71);
-    border-radius:10px;
-    box-shadow:4px 4px 4px #666;
-    padding:0 10px;
-    margin:0 20px;
- }
+#main-menu  {position:absolute;
+             left:395px;
+		     width:540px;
+			 background-color:rgb(71,71,71);
+    		 border-radius:10px;
+    		 box-shadow:4px 4px 4px #666;
+    		 padding:0 10px;
+    		 margin:0 20px;}
  
-#main-menu li { 
-    float:left; 
-    border-right:1px solid #CCC;
-  }
-  #main-menu li.last { border:0px; }
+#main-menu li {float:left; 
+    		   border-right:1px solid rgb(238,224,229);}
+    
+#main-menu li.last {border:0px; }
   
-  #main-menu li a { display:block; 
+#main-menu li a {display:block; 
     padding:15px 20px;
     font-size:18px;
-    color:rgb(205,104,137);
+    color:rgb(205,85,120);
     letter-spacing:1pt;
-    text-decoration:none;
-  }
-
+    text-decoration:none;}
+  
 #main-menu li a:hover { background-color:rgb(238,224,229);}
 
-#page h1 img {position:absolute;
-		   top:300px;
-		   left:440px;
-		   height:250px;
-		   width:150px;
-		   border:solid;
-		   border-width:1px;
-		   box-shadow: 5px 5px 5px #888888;}
-		   
-#site-header h2 {position:absolute;
-				 font-family:lato;
-				 font-weight:bold;
-				 color:rgb(71,71,71);
+#content {position:absolute;
+		  top:200px;
+		  left:150px;
+		  width:1095px;
+		  box-shadow: 10px 10px 30px rgb(71,71,71);}
+		  
+#content h1 {font-family:lato;
+			 color:rgb(71,71,71);
 				 letter-spacing:2pt;
 				 font-size:75px;
-				 top:200px;
-				 left:440px;
+				 font-size:75px;
 				 text-shadow: 2px 4px 3px #666;
-				 padding-bottom:300px;}
+				 background-color:rgb(238,224,229);
+				 padding-top:160px;
+				 padding-left:350px;
+				 padding-right:0px;}
 				 
-#site-header h3 {position:absolute;
-				 color:rgb(71,71,71);
-				 line-height:20px;
+#content h2 {color:rgb(71,71,71);
+				 line-height:22px;
+				 text-align:left;
 				 font-family:georgia;
-				 left:610px;
-				 top:300px;
-				 width:340px;
-				 padding-bottom:15px;}
+				 padding-top:25px;
+				 width:700px;
+				 padding-bottom:50px;
+				 padding-left:350px;
+				 padding-right:45px;
+				 background-color:rgb(238,224,229);}
 				 
-				 
-fieldset {position:absolute;
-		  top:225px;
-		  left:1015px;}
-		  
-label {display:block;}
-input, textarea {display:block;}
+#photo img {float:left;
+			padding-left:100px;
+			padding-top:30px;
+			}
 
 
+#borderline {position:absolute;
+			 top:50px;
+			 left:-45px;}
+			
+button {position:absolute;
+   top:300px;
+   left:300px;
+   border-top: 1px solid #96d1f8;
+   background: rgb(205,85,120);
 
-#footer-follow h1 {position:absolute;
-				   left:1015px;
-				   top:420px;
-				   font-family:lato;
-				   font-size:20px;
-				   color:rgb(71,71,71);
-				   text-shadow: 1px 0px 1px #666;
-				   letter-spacing:1pt;}
-				   
-#footer-follow h2 {display:inline;
-				   position:absolute;
-				   top:465px;
-				   left:1070px;}
-				   
-#footer-follow h3 {display:inline;
-				   position:absolute;
-				   top:465px;
-				   left:1010px;}
-			     			     
-				   
-				   
-				   
-				   
-				   
-				   
-				   
-                    
+   padding: 10px 70px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: rgb(238,224,229);
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+button:hover {
+   border-top-color: #28597a;
+   background: rgb(238,224,229);
+   color: #ccc;
+   }
+button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+  
+  
+  
+  
+  
+  
+  
+  
