@@ -69,7 +69,7 @@ body {background:url(images/pink-paint.jpg)
     		 margin:0 20px;}
  
 #main-menu li {float:left; 
-    		   border-right:1px solid #CCC;}
+    		   border-right:1px solid rgb(238,224,229);}
     
 #main-menu li.last {border:0px; }
   
@@ -80,7 +80,7 @@ body {background:url(images/pink-paint.jpg)
     letter-spacing:1pt;
     text-decoration:none;}
   
-#main-menu li a:hover { background-color:rgb(238,238,224);}
+#main-menu li a:hover { background-color:rgb(238,224,229);}
 
 #content {position:absolute;
 		  top:204px;
