@@ -50,12 +50,17 @@ table {border-collapse: collapse;
 
 
 
+
+
+body {background:url(images/pink-paint.jpg)
+	  ;}
+
 #site-header {position:relative;
         	  margin-top:25px;}
         	  
 				 
 #main-menu  {position:absolute;
-             left:400px;
+             left:395px;
 		     width:540px;
 			 background-color:rgb(71,71,71);
     		 border-radius:10px;
@@ -75,12 +80,11 @@ table {border-collapse: collapse;
     letter-spacing:1pt;
     text-decoration:none;}
   
-#main-menu li a:hover { background-color:rgb(238,224,229);}
+#main-menu li a:hover { background-color:rgb(238,238,224);}
 
 #content {position:absolute;
 		  top:204px;
-		  left:412px;
-		  }
+		  left:407px;}
 
 #content h1 {font-family:lato;
 				 color:rgb(71,71,71);
@@ -120,8 +124,9 @@ table {border-collapse: collapse;
                    background-color:rgb(238,224,229);}
 
 .border {float:left;
-         margin-left:175px;
+         margin-left:170px;
          margin-top:-75px;}
+
 
                
 

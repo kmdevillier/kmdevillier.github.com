@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-
+<body>
 	<meta charset="UTF-8">
 	<title></title>
   <!--[if lt IE 9]>
@@ -44,8 +44,10 @@
 <article class='border'>
 <img src='images/border.png' alt='border'/>
 
+
 </article>
 
+<a id=“button”></a>
 
 
 </body>
