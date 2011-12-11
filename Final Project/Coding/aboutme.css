@@ -120,32 +120,7 @@ body {background:url(images/pink-paint.jpg);}
 			 top:50px;
 			 left:-45px;}
 			
-button {position:absolute;
-   top:300px;
-   left:300px;
-   border-top: 1px solid #96d1f8;
-   background: rgb(205,85,120);
 
-   padding: 10px 70px;
-   -webkit-border-radius: 8px;
-   -moz-border-radius: 8px;
-   border-radius: 8px;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: rgb(238,224,229);
-   font-size: 14px;
-   font-family: Georgia, serif;
-   text-decoration: none;
-   vertical-align: middle;
-   }
-button:hover {
-   border-top-color: #28597a;
-   background: rgb(238,224,229);
-   color: #ccc;
-   }
-button:active {
-   border-top-color: #1b435e;
-   background: #1b435e;
-   }
   
   
   
