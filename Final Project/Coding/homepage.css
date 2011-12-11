@@ -50,58 +50,14 @@ table {border-collapse: collapse;
 
 
 
-
-head {position:relative;}
-
-#site-header img {width:100%;
-				 height:100%:}
-
-#site-header h2 {font-family:lato;
-				 color:rgb(71,71,71);
-				 position:absolute;
-				 letter-spacing:2pt;
-				 font-size:75px;
-				 top:200px;
-				 left:455px;
-				 font-size:75px;
-				 text-shadow: 2px 4px 3px #666;}
-				 
-#site-header h3 {font-family:lato;
-				 font-weight:bold;
-				 position:absolute;
-				 color:rgb(71,71,71);
-				 letter-spacing:2pt;
-				 font-size:75px;
-				 top:280px;
-				 left:455px;
-				 text-shadow: 2px 4px 3px #666;
-				 padding-bottom:25px;
-				 border-bottom-style:solid;
-				 border-width:13px;
-				 border-color:rgb(71,71,71);}
-				 
-#site-header h4 {color:rgb(71,71,71);
-				 line-height:20px;
-				 position:absolute;
-				 text-align:center;
-				 font-family:georgia;
-				 left:455px;
-				 top:410px;
-				 width:525px;
-				 padding-bottom:15px;
-				 border-bottom-style:solid;
-				 border-width:13px;
-				 border-color:rgb(71,71,71);}
-				 
-#site-header h4 a {text-decoration:none;
-                   color:rgb(205,85,120);
-                   font-size:20px;}
-                   
+#site-header {position:relative;
+        	  margin-top:25px;}
+        	  
 				 
 #main-menu  {position:absolute;
-    		 top:10px;
-    		 left:409px;
-    		 background-color:rgb(71,71,71);
+             left:400px;
+		     width:540px;
+			 background-color:rgb(71,71,71);
     		 border-radius:10px;
     		 box-shadow:4px 4px 4px #666;
     		 padding:0 10px;
@@ -110,9 +66,9 @@ head {position:relative;}
 #main-menu li {float:left; 
     		   border-right:1px solid #CCC;}
     
-  #main-menu li.last {border:0px; }
+#main-menu li.last {border:0px; }
   
-  #main-menu li a {display:block; 
+#main-menu li a {display:block; 
     padding:15px 20px;
     font-size:18px;
     color:rgb(205,85,120);
@@ -120,6 +76,53 @@ head {position:relative;}
     text-decoration:none;}
   
 #main-menu li a:hover { background-color:rgb(238,224,229);}
+
+#content {position:absolute;
+		  top:204px;
+		  left:412px;
+		  }
+
+#content h1 {font-family:lato;
+				 color:rgb(71,71,71);
+				 letter-spacing:2pt;
+				 font-size:75px;
+				 font-size:75px;
+				 text-shadow: 2px 4px 3px #666;
+				 background-color:rgb(238,224,229);
+				 padding-top:35px;
+				 padding-left:45px;
+				 padding-right:45px;}
+				 
+#content h2 {font-family:lato;
+				 font-weight:bold;
+				 color:rgb(71,71,71);
+				 letter-spacing:2pt;
+				 font-size:75px;
+				 text-shadow: 2px 4px 3px #666;
+				 padding-left:45px;
+				 padding-right:45px;
+				 background-color:rgb(238,224,229);}
+				 
+#content h3 {color:rgb(71,71,71);
+				 line-height:22px;
+				 text-align:center;
+				 font-family:georgia;
+				 width:525px;
+				 padding-top:25px;
+				 padding-left:45px;
+				 padding-right:45px;
+				 padding-bottom:45px;
+				 background-color:rgb(238,224,229);}
+				 
+#content h3 a     {text-decoration:none;
+                   color:rgb(205,85,120);
+                   font-size:20px;
+                   background-color:rgb(238,224,229);}
+
+.border {float:left;
+         margin-left:175px;
+         margin-top:-75px;}
+
                
-#slideshow img { border:1px solid black; padding:10px; border-radius:10px; } 
+
                     

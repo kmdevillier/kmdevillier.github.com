@@ -1,24 +1,18 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <script src='js/jquery.min.js'></script>
-    <script src='js/jquery.cycle.all.js'></script>    <script>
-      $(document).ready(function() {
-        $('#slideshow').cycle({
-          //next: "#slideshow",
-          //speed: 5000,
-          //timeout: 200,
-          //random: 1,
-          fx: 'fade' 
-          //fade
-        });
-      });     </script>
-    </head>
 
+	<meta charset="UTF-8">
 	<title></title>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
   <link rel="stylesheet" href="homepage.css" type="text/css" media="screen" />
   <link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
-<body>
+</head>
+
+
+<header id='site-header'>	
 <nav id='main-menu'>
   <ul>
     <li>
@@ -35,25 +29,22 @@
 
   </ul>
 </nav>
-<header id='site-header'>
-  <h1><img src='images/pink-paint.jpg' alt="background"></h1>
-  <h2>kat m devillier</h2>
-  <h3>graphic design</h3>
-  <h4>I am a junior graphic design major studying at Massachusetts College of Art & Design. Along with 
+<header id='content'>
+  <h1>kat m devillier</h1>
+  <h2>graphic design</h2>
+  <h3>I am a junior graphic design major studying at Massachusetts College of Art & Design. Along with 
   graphic design, I have studied different mediums including 
   <a href="#">black and white photography,</a>
   <a href="#">digital photography,</a>
   <a href="#">painting,</a>
   <a href="#">drawing,</a> and
-  <a href="#">web design.</a> Enjoy!</h4>
-</header>
+  <a href="#">web design.</a> Enjoy!</h3>
 
- <div id='slideshow'>
-      <img src='images/image1.jpg'/>
-      <img src='images/image2.jpg'/>
-      <img src='images/image3.jpg'/>
-      <img src='images/image4.jpg'/>
-    </div>
+</header>
+<article class='border'>
+<img src='images/border.png' alt='border'/>
+
+</article>
 
 
 
