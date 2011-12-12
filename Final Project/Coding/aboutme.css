@@ -121,29 +121,6 @@ body {background:url(images/pink-paint.jpg);}
 			 left:-45px;}
 			
 
-button {position:absolute;
-   top:305px;
-   left:495px;
-   background: rgb(205,85,120);
-   box-shadow: rgb(71,71,71) 20 1px 20;
-   padding: 7px 25px;
-   border-radius: 10px;
-   color: rgb(238,224,229);
-   font-size: 16px;
-   font-family: Georgia, serif;
-   text-decoration: none;
-   vertical-align: middle;
-   }
-button:hover {
-   border-top-color: rgb(71,71,71);
-   background: rgb(71,71,71);
-   color: rgb(205,85,120);
-   }
-button:active {
-   border-top-color: #1b435e;
-   background: #1b435e;
-   }
-		
 
   
   
